@@ -2,11 +2,13 @@
   "name": "hostco-cli",
   "version": "1.6.2",
   "description": "HostCo Server Management",
+  "main":"index.js",
   "bin": {
     "hostco": "./index.js"
   },
   "type": "module",
   "dependencies": {
     "inquirer": "^9.2.12"
-  }
+  },
+  "private":false
 }
