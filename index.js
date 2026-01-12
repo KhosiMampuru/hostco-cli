@@ -37,7 +37,7 @@ inquirer.prompt(questions).then((answers) => {
   console.log("Cache Layer: Redis");
   console.log("Authentication: JWT Tokens");
   console.log("Hosting: Cloudflare + Nginx");
-  console.log("Dashboard: https://147.93.180.80/\n");
+  console.log("Dashboard: http://67.211.210.13/\n");
   console.log("\x1b[31m\nDevelopment mode is unavailable on this device.\n\x1b[0m");
   } else {
     console.log("\x1b[31m\nInvalid credentials. Access denied.\n\x1b[0m");
